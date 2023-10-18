@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CiMenuFries } from "react-icons/ci";
 import { TfiClose } from "react-icons/tfi";
 
 const Navbar = () => {
+  const navigate = useNavigate();
   const [isClick, setIsClick] = useState(false);
   return (
     <div className="bg-white shadow-sm mb-4 p-2 w-full md:top-0 md:sticky  z-40 ">
@@ -39,6 +40,7 @@ const Navbar = () => {
 
             <li>
               <button
+                onClick={() => navigate("/signin")}
                 type="button"
                 className="text-white text-base bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none font-medium rounded-lg  lg:px-5 lg:py-2.5 px-4 py-2 text-center mr-2 mb-2"
               >
@@ -68,6 +70,7 @@ const Navbar = () => {
               <ul className="container w-10/12 h-1/2 border border-gray-400 rounded-2xl shadow-lg  mx-auto p-2 mt-16 flex flex-col items-center justify-center gap-y-5 ">
                 <li className="w-full border-solid border-b border-gray-300 last:border-b-0 flex justify-center items-center py-1">
                   <Link
+                    onClick={() => setIsClick(false)}
                     to="/bookmarks"
                     className="font-rubik text-sky-600 hover:text-sky-600 duration-150"
                   >
@@ -87,6 +90,7 @@ const Navbar = () => {
 
                 <li className=" w-full flex justify-center  items-center py-1 ">
                   <Link
+                    onClick={() => setIsClick(false)}
                     to="/bookmarks"
                     className="font-rubik text-gray-500  hover:text-sky-600 duration-150"
                   >

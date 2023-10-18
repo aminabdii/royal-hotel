@@ -8,6 +8,7 @@
       "name": "Nice room at Vondelpark",
       "summary": "Nice and clean private bedroom near the city center, 15 minutes by bike to Central station, Leidseplein  Several shops, bars, restaurants and transports five minutes from my place.  Balcony, bath, towels, shampoo, shower, wifi, music lounge,",
       "space": "I offer a cuzy, private room in a nice apartment in Amsterdam, access to the bathroom, kichen and wifi. Directly to the public transport. Vondelpark and Supermarket within a minute walking distance.",
+      "rate": "4.7",
       "description": "Nice and clean private bedroom near the city center, 15 minutes by bike to Central station, Leidseplein  Several shops, bars, restaurants and transports five minutes from my place.  Balcony, bath, towels, shampoo, shower, wifi, music lounge,",
       "experiences_offered": "none",
       "neighborhood_overview": "Really nice and quiet nighborhood!",
@@ -49,7 +50,12 @@
       "host_neighbourhood": null,
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": ["email", "phone", "facebook", "reviews"],
+      "host_verifications": [
+        "email",
+        "phone",
+        "facebook",
+        "reviews"
+      ],
       "street": "Amsterdam, Noord-Holland 1054, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -114,17 +120,20 @@
         "lon": 2.35,
         "lat": 48.86
       },
-      "features": ["Host Has Profile Pic"]
+      "features": [
+        "Host Has Profile Pic"
+      ]
     },
     {
       "id": "9192415",
       "listing_url": "https://www.airbnb.com/rooms/9192415",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "Cozy apartment center Amsterdam",
-      "summary": "Cozy 2 person apartment in Amsterdam on walking distance from Vondelpark, Museum Square and Leidseplein.",
+      "name": "Cozy apartment madrid",
+      "rate": "4.8",
+      "summary": "Cozy 2 person apartment in madrid on walking distance from Vondelpark, Museum Square and Leidseplein.",
       "space": "The appartment has a living room, a kitchen, a bathroom (shower and toilet), a sleeping room and two balconys.  The kitchen is fully equipped (refrigerator, oven, microwave, coffee maker, toaster, blender, dishwasher, ..). The bed is very comfortable for 2 persons (180 x 200). Bedlinen, towels, soap, shampoo and a hairdryer is provided. You can use a closet with hangers. You have acces to wireless internet. Also provided: 2 umbrellas, city guide and map in English.",
-      "description": "Cozy 2 person apartment in Amsterdam on walking distance from Vondelpark, Museum Square and Leidseplein. The appartment has a living room, a kitchen, a bathroom (shower and toilet), a sleeping room and two balconys.  The kitchen is fully equipped (refrigerator, oven, microwave, coffee maker, toaster, blender, dishwasher, ..). The bed is very comfortable for 2 persons (180 x 200). Bedlinen, towels, soap, shampoo and a hairdryer is provided. You can use a closet with hangers. You have acces to wireless internet. Also provided: 2 umbrellas, city guide and map in English. This is an apartment situated at the West side of the Vondelpark in Amsterdam. The apartmant is suitable for 1 or 2 people. The apartment is on the 1th floor. The Albert Heijn market is nearby (200 metres). There are a lot of restaurants on the street. The apartment is located nearby Vondelpark (1min walk), Museumplein (3min walk), Leidseplein and the centre of Amsterdam. Vondelpark, Museum Square, Leidsplein is on walkin",
+      "description": "Cozy 2 person apartment in madrid on walking distance from Vondelpark, Museum Square and Leidseplein. The appartment has a living room, a kitchen, a bathroom (shower and toilet), a sleeping room and two balconys.  The kitchen is fully equipped (refrigerator, oven, microwave, coffee maker, toaster, blender, dishwasher, ..). The bed is very comfortable for 2 persons (180 x 200). Bedlinen, towels, soap, shampoo and a hairdryer is provided. You can use a closet with hangers. You have acces to wireless internet. Also provided: 2 umbrellas, city guide and map in English. This is an apartment situated at the West side of the Vondelpark in madrid. The apartmant is suitable for 1 or 2 people. The apartment is on the 1th floor. The Albert Heijn market is nearby (200 metres). There are a lot of restaurants on the street. The apartment is located nearby Vondelpark (1min walk), Museumplein (3min walk), Leidseplein and the centre of madrid. Vondelpark, Museum Square, Leidsplein is on walkin",
       "experiences_offered": "none",
       "neighborhood_overview": "This is an apartment situated at the West side of the Vondelpark in Amsterdam. The apartmant is suitable for 1 or 2 people. The apartment is on the 1th floor. The Albert Heijn market is nearby (200 metres). There are a lot of restaurants on the street. The apartment is located nearby Vondelpark (1min walk), Museumplein (3min walk), Leidseplein and the centre of Amsterdam.",
       "notes": null,
@@ -210,9 +219,7 @@
         "Hangers",
         "Hair dryer",
         "Iron",
-        "Laptop friendly workspace",
-        "translation missing: en.hosting_amenity_49",
-        "translation missing: en.hosting_amenity_50"
+        "Laptop friendly workspace"
       ],
       "square_feet": null,
       "price": 95,
@@ -262,7 +269,8 @@
       "listing_url": "https://www.airbnb.com/rooms/743788",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "Le Quartier Sonang-Kamar Bidadari",
+      "rate": "4.5",
+      "name": "Le Quartier Sonang-Kamar ",
       "summary": "‘Le Quartier Sonang’ is a peaceful, quiet townhouse in the most popular district of Amsterdam. The luxury mini suites at the first floor in this 19th century original townhouse are located in the middle of the museum, fashion and theatre district.",
       "space": "We opened our doors on the 25th of April 2012 and is a peaceful, quiet townhouse in the most popular district of Amsterdam. The two comfortable guestrooms at the first floor in this 19th century original townhouse are located only five minutes away from the Leidseplein, Vondelpark, P.C. Hooftstraat, all famous museums and the concert building. Sleep on a cloud on the COCO-MAT beds, the best beds in town. Rooms are spacious, carefully designed to meet the highest standards, and offer you a perfect retreat as a home away for home after a long day exploring the city. Kamar Bidadari: a comfortable mini suite The completely furnished apartment with private bathroom is equipped with a LED TV/DVD, free WIFI, tea- and coffee facilities and a small refrigerator for your beverages. The huge windows in the rooms provide you a better Amsterdam view than any painting ever made.",
       "description": "‘Le Quartier Sonang’ is a peaceful, quiet townhouse in the most popular district of Amsterdam. The luxury mini suites at the first floor in this 19th century original townhouse are located in the middle of the museum, fashion and theatre district. We opened our doors on the 25th of April 2012 and is a peaceful, quiet townhouse in the most popular district of Amsterdam. The two comfortable guestrooms at the first floor in this 19th century original townhouse are located only five minutes away from the Leidseplein, Vondelpark, P.C. Hooftstraat, all famous museums and the concert building. Sleep on a cloud on the COCO-MAT beds, the best beds in town. Rooms are spacious, carefully designed to meet the highest standards, and offer you a perfect retreat as a home away for home after a long day exploring the city. Kamar Bidadari: a comfortable mini suite The completely furnished apartment with private bathroom is equipped with a LED TV/DVD, free WIFI, tea- and coffee facilities and a small re",
@@ -305,7 +313,11 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 3,
       "host_total_listings_count": 3,
-      "host_verifications": ["email", "phone", "reviews"],
+      "host_verifications": [
+        "email",
+        "phone",
+        "reviews"
+      ],
       "street": "Oud-West, Amsterdam, North Holland 1054, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -374,16 +386,20 @@
         "lon": 4.875639539930118,
         "lat": 52.36456756846072
       },
-      "features": ["Host Has Profile Pic", "Is Location Exact"]
+      "features": [
+        "Host Has Profile Pic",
+        "Is Location Exact"
+      ]
     },
     {
       "id": "13153299",
       "listing_url": "https://www.airbnb.com/rooms/13153299",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "Trendy and spacious rooftop apt (115m2) in centre",
+      "name": "Trendy rooftop apt in centre",
       "summary": "A beautiful 2 bedroom apt (115 m2) with a an amazing 50 m2 roof terrace with 360 view over Amsterdam. Located very centrally in Amsterdam-West/Center. Walking distance to many highlights (Vondelpark, 9 Streets, Jordaan, Leidseplein and many musea). Very luxurious and light apt with huge living, open kitchen and direct access to the rooftop. The master bedroom and 2nd bedroom for a baby or single bed if requested. Perfectly suited for a young family or couple.",
       "space": "This spacious top floor apartment is completely renovated and professionally designed. The living room with open kitchen has a dining table with 6 seats. Needless to say there is a complementary wireless Internet connection. Due to the large windows, the apartment gives a spacious and warm feeling. The bedroom on the third floor has a very comfortable king size bed (180x200). The bathroom is attached to the bedroom and contains a bath, rain shower, sinks and washing machine & dryer. The apartment has its own entrance and is in one of the best neighbourhoods in Amsterdam. The apartment is located close to the Vondelpark and 5 min away from the famous Leidseplein. Multiple public transport connections are available around the corner. Easy access to all the major public transport lines. Tram 1 and 13 with direct links to Central Station and the entire centre, as well as a fast link (via Lelylaan) to Schiphol.  The Rijksmuseum, Van Gogh Museum and Modern art Museum (Stedelijk) are at a 5 t",
+      "rate": "4.9",
       "description": "A beautiful 2 bedroom apt (115 m2) with a an amazing 50 m2 roof terrace with 360 view over Amsterdam. Located very centrally in Amsterdam-West/Center. Walking distance to many highlights (Vondelpark, 9 Streets, Jordaan, Leidseplein and many musea). Very luxurious and light apt with huge living, open kitchen and direct access to the rooftop. The master bedroom and 2nd bedroom for a baby or single bed if requested. Perfectly suited for a young family or couple. This spacious top floor apartment is completely renovated and professionally designed. The living room with open kitchen has a dining table with 6 seats. Needless to say there is a complementary wireless Internet connection. Due to the large windows, the apartment gives a spacious and warm feeling. The bedroom on the third floor has a very comfortable king size bed (180x200). The bathroom is attached to the bedroom and contains a bath, rain shower, sinks and washing machine & dryer. The apartment has its own entrance and is in one",
       "experiences_offered": "none",
       "neighborhood_overview": "Seriously one of the best neighbourhoods in town. A~nd we are not saying this because we live here ;-) The Bosboom Toussaintstraat is considered to be one of the most beautiful streets in Amsterdam. The area is very popular with many restaurants, bars, musea, shopping streets and of course the Vondelpark around the corner.",
@@ -522,11 +538,12 @@
       "listing_url": "https://www.airbnb.com/rooms/277011",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "nice apartment in centre amsterdam",
+      "name": "nice apartment in london",
       "summary": null,
       "space": "This beautiful apartment has a spacious living and cosy dining room, kitchen with all the facilities you need, separate bedroom and bathroom with shower and bathtub. There are two balcony's, one on the south side so there's always sun.  The house is located next to the famous Vondelpark, in a quiet street in a cosy neighbourhood with a variety of shops and restaurants. The area is on walking distance from the city centre and there are many public transport facilities. There is no longer a cat to be taken care of (if you read my reviews).",
       "description": "This beautiful apartment has a spacious living and cosy dining room, kitchen with all the facilities you need, separate bedroom and bathroom with shower and bathtub. There are two balcony's, one on the south side so there's always sun.  The house is located next to the famous Vondelpark, in a quiet street in a cosy neighbourhood with a variety of shops and restaurants. The area is on walking distance from the city centre and there are many public transport facilities. There is no longer a cat to be taken care of (if you read my reviews).",
       "experiences_offered": "none",
+      "rate": "4.6",
       "neighborhood_overview": null,
       "notes": null,
       "transit": null,
@@ -654,6 +671,7 @@
       "name": "AMSTERDAM, OUD-WEST",
       "summary": "Cozy private room with a double bed in Oud-West, Amsterdam. Typical Dutch local neighborhood quiet but with live. All sorts of facilities: supermarkets, stores, cafés 1 min walking. Great location: 5min to the center, 7min Leidseplein (restaurants, bars, shops, etc.), the marvelous famous FoodHallen (restaurants), Waterkant (bar), Kade West (café).",
       "space": null,
+      "rate": "4.7",
       "description": "Cozy private room with a double bed in Oud-West, Amsterdam. Typical Dutch local neighborhood quiet but with live. All sorts of facilities: supermarkets, stores, cafés 1 min walking. Great location: 5min to the center, 7min Leidseplein (restaurants, bars, shops, etc.), the marvelous famous FoodHallen (restaurants), Waterkant (bar), Kade West (café).",
       "experiences_offered": "none",
       "neighborhood_overview": null,
@@ -695,7 +713,10 @@
       "host_neighbourhood": null,
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": ["email", "reviews"],
+      "host_verifications": [
+        "email",
+        "reviews"
+      ],
       "street": "Amsterdam, North Holland, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -765,16 +786,19 @@
         "lon": 4.865594943841575,
         "lat": 52.36667871194905
       },
-      "features": ["Host Has Profile Pic"]
+      "features": [
+        "Host Has Profile Pic"
+      ]
     },
     {
       "id": "13465532",
       "listing_url": "https://www.airbnb.com/rooms/13465532",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "Romantic house in easy Amsterdam, garden and cats",
+      "name": "Romantic house in Amsterdam",
       "summary": "Mijn ruimte is vlakbij Leidseplein, het Rijksmuseum, het Vondelpark en Paradiso. Je zult genieten van mijn plek vanwege de locatie, de tuin op het zuiden en de sfeer. Mijn ruimte is geschikt voor stellen en gezinnen (met kinderen). Je zult onze twee katten eten moeten  geven en af en toe moeten strelen.",
       "space": null,
+      "rate": "4.5",
       "description": "Mijn ruimte is vlakbij Leidseplein, het Rijksmuseum, het Vondelpark en Paradiso. Je zult genieten van mijn plek vanwege de locatie, de tuin op het zuiden en de sfeer. Mijn ruimte is geschikt voor stellen en gezinnen (met kinderen). Je zult onze twee katten eten moeten  geven en af en toe moeten strelen.",
       "experiences_offered": "none",
       "neighborhood_overview": null,
@@ -906,6 +930,7 @@
       "name": "Fresh and bright in Baarsjes",
       "summary": "Bright and comfortable apartment in a quiet street in Amsterdam-west (Baarsjes area) near city centre! You will have a spacious livingroom with big couch and great dining area. There is a nice kitchen and a clean bathroom.  The bedroom is very comfortable with big wardrobe, luxury bed and tv.",
       "space": null,
+      "rate": "4.9",
       "description": "2 bikes Wifi Cards for public transfer A lot of stores and restaurants around the corner",
       "experiences_offered": "none",
       "neighborhood_overview": "A lot of stores and restaurants around the corner",
@@ -947,7 +972,11 @@
       "host_neighbourhood": null,
       "host_listings_count": 0,
       "host_total_listings_count": 0,
-      "host_verifications": ["email", "phone", "reviews"],
+      "host_verifications": [
+        "email",
+        "phone",
+        "reviews"
+      ],
       "street": "Amsterdam, NH 1056, Netherlands",
       "neighbourhood": null,
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1021,14 +1050,17 @@
         "lon": 4.853345068114508,
         "lat": 52.37080138742488
       },
-      "features": ["Host Has Profile Pic"]
+      "features": [
+        "Host Has Profile Pic"
+      ]
     },
     {
       "id": "7890890",
       "listing_url": "https://www.airbnb.com/rooms/7890890",
       "scrape_id": "20170402075052",
       "last_scraped": "2017-04-02",
-      "name": "♥ Family home with garden, Oud West",
+      "rate": "4.4",
+      "name": "Family home with garden",
       "summary": "Comfortable family home in one of Amsterdam's nicest neighborhoods. Two story townhouse, with very sunny and flowery garden. Super cosy fireplace. Perfect house for families!",
       "space": "We live in a beautiful old home in the center of Amsterdam. The house is very centrally located, only steps away from the canal area and Museum square. Our neighbourhood is residential, yet lively with lots of restaurants and a good mix of people.  The appartment is on the ground and first floor of an old townhouse, built in 1890, with lots of original ornaments from that time. At the back side of the apartment there is a small but sunny garden and a balcony on the first floor facing the south.  On the ground floor there is a living room with a big sofa, a fireplace and a TV with dvd. The living area is connected to the dining area and the open kitchen. From the dining area doors swing open to the garden, which has a BBQ and nice teak wooden table with chairs. The kitchen has all the necessary appliances (refrigerator, freezer, microwave, oven, espressomachine) In the hallway leading to the first floor there is a separate toilet.  Upstairs there is a large master bedroom with a walk-in",
       "description": "Comfortable family home in one of Amsterdam's nicest neighborhoods. Two story townhouse, with very sunny and flowery garden. Super cosy fireplace. Perfect house for families! We live in a beautiful old home in the center of Amsterdam. The house is very centrally located, only steps away from the canal area and Museum square. Our neighbourhood is residential, yet lively with lots of restaurants and a good mix of people.  The appartment is on the ground and first floor of an old townhouse, built in 1890, with lots of original ornaments from that time. At the back side of the apartment there is a small but sunny garden and a balcony on the first floor facing the south.  On the ground floor there is a living room with a big sofa, a fireplace and a TV with dvd. The living area is connected to the dining area and the open kitchen. From the dining area doors swing open to the garden, which has a BBQ and nice teak wooden table with chairs. The kitchen has all the necessary appliances (refriger",
@@ -1072,7 +1104,12 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 1,
       "host_total_listings_count": 1,
-      "host_verifications": ["email", "phone", "reviews", "jumio"],
+      "host_verifications": [
+        "email",
+        "phone",
+        "reviews",
+        "jumio"
+      ],
       "street": "Oud-West, Amsterdam, Noord-Holland 1054, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1167,6 +1204,7 @@
       "space": "I have no reviews yet as this is the first time I will rent out my apartment. So I'm excited about starting this :)!",
       "description": "Spacious and bright apartment with welcoming living room, well equipped kitchen with pretty garden view, a superspacious bathroom and two comfortable double bedrooms. 10 min bike ride to city centre (f.e. Dam Square/Anne Frank House). If you need any help during your stay, whether organising your public transport to the airport or finding a great local place to have dinner, I'm happy to help. De Baarsjes is a young and creative neighborhood which has become more and more popular over the past few years. I love it for the great mix of people -every age group and background is represented-, and the local public amenities reflect that variety. You will find cheap local grocery stores and a brand new mosque alongside beautiful design stores and great coffee places. To reach my house from Central Station, you catch tram 13 (direction Geuzenveld) to tramstop Admiraal de Ruyterweg, which takes approximately 12 minutes. From there, it's a 5 minute walk to my house.  To reach my house from Schi",
       "experiences_offered": "none",
+      "rate": "4.6",
       "neighborhood_overview": "De Baarsjes is a young and creative neighborhood which has become more and more popular over the past few years. I love it for the great mix of people -every age group and background is represented-, and the local public amenities reflect that variety. You will find cheap local grocery stores and a brand new mosque alongside beautiful design stores and great coffee places.",
       "notes": null,
       "transit": "To reach my house from Central Station, you catch tram 13 (direction Geuzenveld) to tramstop Admiraal de Ruyterweg, which takes approximately 12 minutes. From there, it's a 5 minute walk to my house.  To reach my house from Schiphol, you catch a train to Amsterdam Lelylaan (7 mins) and take tram 17 (direction Centraal Station) to tramstop 'Witte de Withstraat' (6 mins). From the tramstop, it's a 5 min walk to my house. If you're travelling by car, there's usually plenty of space to park in front of or nearby the house. There's paid parking (2,40/hour) from Monday til Saturday 09h-24h. You can reach the city center (f.e. Dam Square) by foot in about 30 minutes. If you'd rather explore the city the way the locals do -by bike!- there's several bike rental shops closeby.",
@@ -1206,7 +1244,12 @@
       "host_neighbourhood": "Oud-West",
       "host_listings_count": 2,
       "host_total_listings_count": 2,
-      "host_verifications": ["email", "phone", "reviews", "jumio"],
+      "host_verifications": [
+        "email",
+        "phone",
+        "reviews",
+        "jumio"
+      ],
       "street": "Oud-West, Amsterdam, Noord-Holland 1057, Netherlands",
       "neighbourhood": "Oud-West",
       "neighbourhood_cleansed": "De Baarsjes - Oud-West",
@@ -1286,6 +1329,44 @@
         "Host Identity Verified",
         "Is Location Exact"
       ]
+    }
+  ],
+  "bookmarks": [
+    {
+      "latitude": "61.63805240693769",
+      "longitude": "92.57217407226564",
+      "cityName": "Tura",
+      "country": "Russian Federation (the)",
+      "countryCode": "RU",
+      "host_location": "TuraRussian Federation (the)",
+      "id": 22
+    },
+    {
+      "latitude": "40.41561989937647",
+      "longitude": "-3.6897861957550053",
+      "cityName": "Madrid",
+      "country": "Spain",
+      "countryCode": "ES",
+      "host_location": "MadridSpain",
+      "id": 25
+    },
+    {
+      "latitude": "52.367018148457824",
+      "longitude": "4.864647388458253",
+      "cityName": "Amsterdam",
+      "country": "Netherlands (the)",
+      "countryCode": "NL",
+      "host_location": "AmsterdamNetherlands (the)",
+      "id": 26
+    },
+    {
+      "latitude": "48.55890064298794",
+      "longitude": "2.35433578491211",
+      "cityName": "Vert-le-Grand",
+      "country": "France",
+      "countryCode": "FR",
+      "host_location": "Vert-le-GrandFrance",
+      "id": 27
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useBookmarks } from "../../contexts/BookmarkProvider/BookmarkProvider";
 import ReactCountryFlag from "react-country-flag";
 import { BsTrash3 } from "react-icons/bs";

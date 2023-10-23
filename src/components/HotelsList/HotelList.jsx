@@ -2,7 +2,10 @@ import React from "react";
 import { AiFillStar } from "react-icons/ai";
 import { useHotel } from "../../contexts/HotelProvider/HotelProvider";
 import { useNavigate } from "react-router-dom";
+import "./HotelList.css";
+
 const HotelList = () => {
+  let delay = 0.3;
   const navigate = useNavigate();
   const { hotels } = useHotel();
   return (
@@ -19,16 +22,18 @@ const HotelList = () => {
         {/* ..  */}
         <div className="grid grid-cols-1 sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {hotels.map((hotel) => {
+            delay += 0.03;
             return (
               <div
-                className="shadow-sm  flex flex-col gap-7 cursor-pointer rounded-lg p-0.5 
+                style={{ animationDelay: delay + "s" }}
+                className="fade-in-horiz shadow-sm flex flex-col gap-7 cursor-pointer rounded-lg p-0.5 
           "
                 key={hotel.id}
               >
-                <div>
+                <div className="card__placeholder">
                   <img
-                    className="w-full h-48 rounded-md"
-                    src={hotel.picture_url.url}
+                    className="  w-full h-48 rounded-md"
+                    src={hotel.picture_url?.url}
                     alt=""
                   />
                 </div>

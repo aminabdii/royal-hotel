@@ -33,7 +33,7 @@ const Login = () => {
   }
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/", { replace: true });
+    if (isAuthenticated) navigate("/bookmarks", { replace: true });
   }, [isAuthenticated, navigate]);
 
   return (

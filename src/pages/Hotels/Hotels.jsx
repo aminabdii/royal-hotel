@@ -17,12 +17,12 @@ const Hotels = () => {
             key={hotel.id}
             to={`/hotels/${hotel.id}?lat=${hotel.latitude}&lng=${hotel.longitude}`}
             className={
-              "flex items-center justify-between gap-3 shadow-md rounded-md "
+              "fade-in-horiz flex items-center justify-between gap-3 shadow-md rounded-md "
             }
           >
             <img
               className="w-24 h-24 md:w-32 md:h-32 xl:w-36 xl:h-36 rounded-md"
-              src={hotel.picture_url.url}
+              src={hotel.picture_url?.url}
               alt={hotel.id}
             />
             <div className=" p-2 w-full flex flex-col gap-y-1">

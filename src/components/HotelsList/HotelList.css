@@ -1,0 +1,14 @@
+@keyframes image-loading {
+  0% {
+    background-color: hsl(200, 20%, 20%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
+.card__placeholder {
+  z-index: 40;
+  height: 100%;
+  animation-duration: 1s;
+  animation: image-loading linear infinite alternate;
+}

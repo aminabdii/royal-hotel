@@ -44,7 +44,7 @@ function reducerFunction(state, { type, payload }) {
       return {
         ...state,
         isLoading: false,
-        bookmarks: payload,
+        bookmarks: state.bookmarks.filter((item) => item.id !== payload),
       };
     case "rejected":
       return {
@@ -81,11 +81,12 @@ const BookmarkProvider = ({ children }) => {
 
   async function deleteBookmark(id) {
     dispatch({ type: "loading" });
+
     try {
       await instance.delete(`/bookmarks/${id}`);
       dispatch({
         type: "bookmark/deleted",
-        payload: [...bookmarks.filter((bookmark) => bookmark.id !== id)],
+        payload: id,
       });
     } catch (error) {
       dispatch({ type: "rejected", payload: error.message });

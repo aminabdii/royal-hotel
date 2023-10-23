@@ -1333,40 +1333,13 @@
   ],
   "bookmarks": [
     {
-      "latitude": "61.63805240693769",
-      "longitude": "92.57217407226564",
-      "cityName": "Tura",
-      "country": "Russian Federation (the)",
-      "countryCode": "RU",
-      "host_location": "TuraRussian Federation (the)",
-      "id": 22
-    },
-    {
-      "latitude": "40.41561989937647",
-      "longitude": "-3.6897861957550053",
-      "cityName": "Madrid",
-      "country": "Spain",
-      "countryCode": "ES",
-      "host_location": "MadridSpain",
-      "id": 25
-    },
-    {
-      "latitude": "52.367018148457824",
-      "longitude": "4.864647388458253",
-      "cityName": "Amsterdam",
-      "country": "Netherlands (the)",
-      "countryCode": "NL",
-      "host_location": "AmsterdamNetherlands (the)",
-      "id": 26
-    },
-    {
-      "latitude": "48.55890064298794",
-      "longitude": "2.35433578491211",
-      "cityName": "Vert-le-Grand",
-      "country": "France",
-      "countryCode": "FR",
-      "host_location": "Vert-le-GrandFrance",
-      "id": 27
+      "latitude": "36.47044162411786",
+      "longitude": "52.34676361083985",
+      "cityName": "Amol",
+      "country": "Iran (Islamic Republic of)",
+      "countryCode": "IR",
+      "host_location": "AmolIran (Islamic Republic of)",
+      "id": 30
     }
   ]
 }

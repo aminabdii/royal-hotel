@@ -14,15 +14,18 @@ import Loading from "../../components/loading/Loading";
 const SingleHootel = () => {
   const navigate = useNavigate();
   const { currentLoading, currentHotel, getSingleHotel } = useHotel();
+
   const { id } = useParams();
   useEffect(() => {
     getSingleHotel(id);
   }, [id]);
 
+  console.log(currentHotel);
+
   if (currentLoading) return <Loading />;
 
   return (
-    <div className="w-full h-screen overflow-y-scroll  bg-white rounded-md shadow-md">
+    <div className="fade-in-horiz w-full h-screen overflow-y-scroll  bg-white rounded-md shadow-md">
       <div className="w-full flex flex-col items-center">
         <img
           className="w-full h-64  xl:h-80 rounded-t-md"
@@ -56,7 +59,7 @@ const SingleHootel = () => {
             {currentHotel.property_type}
           </p>
           {/* locaction and rate  */}
-          <p className="w-full text-sm font-light">{`rent hotel in ${currentHotel.smart_location} by ${currentHotel.host_name} `}</p>
+          <p className="w-full text-sm font-light">{`rent hotel in ${currentHotel.smart_location} by ${currentHotel?.host_name} `}</p>
         </div>
         {/* Room specifications  */}
         <div className="flex flex-col items-center font-rubik gap-2 justify-center  w-full  px-2 py-4">

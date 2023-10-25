@@ -20,15 +20,16 @@ const HotelProvider = ({ children }) => {
   const room = JSON.parse(searchParams.get("options"))?.room;
 
   const { isLoading, data: hotels } = useFetchData(
-    "https://amnabdi.pythonanywhere.com/hotels/",
+    "https://amnabdi.pythonanywhere.com/api/hotels/",
     `q=${destination || ""}&accommodates_gte=${room || 1}`
   );
 
+  console.log(hotels);
   async function getSingleHotel(id) {
     setCurrentLoding(true);
     try {
       const { data } = await axios.get(
-        `https://amnabdi.pythonanywhere.com/hotel/${id}`
+        `https://amnabdi.pythonanywhere.com/api/hotels/${id}`
       );
       setCurrentHotel(data);
     } catch (error) {

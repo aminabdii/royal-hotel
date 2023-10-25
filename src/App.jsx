@@ -14,12 +14,14 @@ import Signin from "./pages/Signin/Signin";
 import Login from "./pages/login/Login";
 import AuthProvider from "./contexts/AuthProvider/AuthProvider";
 import ProtectedRoutes from "./components/ProtectedRoutes/ProtectedRoutes";
+import ScrollToTop from "./shared/ScrollToTop";
 
 function App() {
   return (
     <AuthProvider>
       <BookmarkProvider>
         <HotelProvider>
+          <ScrollToTop />
           <Routes>
             <Route path="/" element={<AppLayout />}>
               <Route index element={<Home />} />

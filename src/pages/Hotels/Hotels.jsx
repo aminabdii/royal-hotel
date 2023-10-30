@@ -10,7 +10,7 @@ const Hotels = () => {
 
   if (isLoading) return <p>Loading...</p>;
   return (
-    <div className="w-full h-screen flex flex-col gap-y-4 p-2 overflow-y-scroll rounded-md shadow-md bg-white ">
+    <div className="w-full h-full flex flex-col gap-y-4 p-2 overflow-y-scroll rounded-md shadow-md bg-white ">
       {hotels.map((hotel) => {
         return (
           <Link

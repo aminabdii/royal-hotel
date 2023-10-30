@@ -1,27 +1,33 @@
 import axios from "axios";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
-const useFetchData = (url, query = "") => {
-  const [isLoading, setIsLoading] = useState(false);
+const BASE_URL = "https://amnabdi.pythonanywhere.com/api";
+
+const instance = axios.create({
+  baseURL: BASE_URL,
+});
+
+const useFetchData = (axiosParams) => {
+  const [isLoading, setIsLoading] = useState(true);
   const [data, setData] = useState([]);
-  const [error, setError] = useState("");
+  const [error, setError] = useState(null);
+
+  async function fetchData() {
+    try {
+      const { data } = await instance.request(axiosParams);
+      setData(data);
+    } catch (error) {
+      setError(error);
+    } finally {
+      setIsLoading(false);
+    }
+  }
 
   useEffect(() => {
-    async function getData() {
-      setIsLoading(false);
-      try {
-        const { data } = await axios.get(`${url}?${query}`);
-        setData(data);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-    getData();
-  }, [url, query]);
+    fetchData();
+  }, [axiosParams.url]);
 
-  return { isLoading, data };
+  return [isLoading, data, error];
 };
 
 export default useFetchData;

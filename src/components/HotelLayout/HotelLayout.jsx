@@ -12,7 +12,7 @@ const HotelLayout = () => {
           <div className=" w-full sm:w-[60%] ">
             <Outlet />
           </div>
-          <div className="hidden h-screen bg-blue-200 sm:block w-[40%] ">
+          <div className="hidden  bg-blue-200 sm:block w-[40%] ">
             <Map markerLocation={hotels} />
           </div>
         </div>

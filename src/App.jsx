@@ -15,12 +15,14 @@ import Login from "./pages/login/Login";
 import AuthProvider from "./contexts/AuthProvider/AuthProvider";
 import ProtectedRoutes from "./components/ProtectedRoutes/ProtectedRoutes";
 import ScrollToTop from "./shared/ScrollToTop";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
     <AuthProvider>
       <BookmarkProvider>
         <HotelProvider>
+          <Toaster />
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<AppLayout />}>

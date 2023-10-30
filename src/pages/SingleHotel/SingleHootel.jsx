@@ -10,6 +10,7 @@ import { TbCircleFilled } from "react-icons/tb";
 import { GiPriceTag } from "react-icons/gi";
 import Map from "../../components/Map/Map";
 import Loading from "../../components/loading/Loading";
+import toast from "react-hot-toast";
 
 const SingleHootel = () => {
   const navigate = useNavigate();
@@ -171,6 +172,7 @@ const SingleHootel = () => {
 
           <button
             type="button"
+            onClick={() => toast.success("Your request has been sent")}
             className="text-white  text-base cursor-pointer bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-1 focus:outline-none font-medium rounded-lg  lg:px-5 lg:py-2.5 shadow-lg px-3 py-2 text-center"
           >
             request to guest
